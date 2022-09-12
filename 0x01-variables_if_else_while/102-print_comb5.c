@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Prints all possible combinations of a pair 
+* main - prints all possible combo of a pair 
 *
 * Return: 0 on success.
 */
