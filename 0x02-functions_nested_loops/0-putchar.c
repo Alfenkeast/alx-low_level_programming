@@ -1,13 +1,28 @@
-#include <unistd.h>
+/*
+* File: 0-putchar.c
+* Auth: Nkechi Eke
+*
+*/
+
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+* main - Prints "Putchar" followed by a new line.
+*
+* Return: Always 0.
+*/
+int main(void)
 {
-	return (write(1, &c, 1));
+	_putchar('H');
+	_putchar('o');
+	_putchar('1');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+
+	return (0);
 }
