@@ -17,7 +17,7 @@ int main(void)
 	for (i = 0; i < 48; i++)
 	{
 		c = a + b;
-		printf("%1d", c);
+		printf("%d", c);
 		a = b;
 		b = c;
 
