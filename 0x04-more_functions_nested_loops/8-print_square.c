@@ -19,9 +19,9 @@ void print_square(int n)
 			_putchar('#');
 			ii++;
 		}
-		_putchar('\n);
+		_putchar('#');
 		i++;
 	}
 	if (i == 0)
-		_putchar('\n);
+		_putchar('\n');
 }
