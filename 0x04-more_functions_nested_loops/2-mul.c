@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * mul - gives the product of a and b
- * @a: variable
- * @b: variable
+ * mul - give the product of a and b
+ * @a: variables
+ * @b: variables
  *
- * Return a * b
+ * Return: a * b
  */
 
 int mul(int a, int b)
