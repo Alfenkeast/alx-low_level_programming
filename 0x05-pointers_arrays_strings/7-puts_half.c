@@ -2,21 +2,26 @@
 #include <stdio.h>
 
 /**
- * puts2 - function should print only one character out of two
- * starting with the first one
+ * puts_half - a function that prints half of a string
+ * if odd len, n = (length_of_the_string -1) / 2
  * @str: input
- * Return: print
+ * Return: half of input
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
-	int i = 0;
+	int i, n, len;
 
-	for (; str[i] != '\0'; i++)
-	{
-		if ((i % 2) == 0)
-			putchar(str[i]);
-		else
-			continue;
-	}
+	len = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
+		lent++;
+
+	n = (len /2);
+
+	if ((len % 2) == 1)
+		n = ((len + 1) / 2);
+
+	for (i = n; str[i] != '\0'; i++)
+		putchar(str[i]);
 	putchar('\n');
 }
