@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - a function that prints n elements of an array
+ * print_array -  prints n elements of an array
  * @a: int type array pointer
  * @n: int type integer
  * Return: 0
@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 		if (n > 0)
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	printf("\n");
