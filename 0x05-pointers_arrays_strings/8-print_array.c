@@ -3,17 +3,22 @@
 
 /**
  * print_array - a function that prints n elements of an array
- * @a: array name
- * @n: is the number of elements of the array to be printed
- * Return: a and n inputs
+ * @a: int type array pointer
+ * @n: int type integer
+ * Return: 0
  */
 void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < (n - l); i++)
+	i = 0;
+	for (n--; n >= 0; n--, i++)
+	{
 		printf("%d", a[i]);
-		if (i == (n - l))
-			printf("%d", a[n - l]);
+		if (n > 0)
+		{
+			printf(",");
+		}
+	}
 	printf("\n");
 }
