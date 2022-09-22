@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- * leet - Encodes a string into 1337
- * @s: The string to encode
+ * leet - encodes a string into 1337
+ * @s: string to encode
  *
- * Return: The encoded string
+ * Return: address of s
  */
 char *leet(char *s)
 {
 	int i, j;
 	char a[] = "aAeEoOtTlL";
-	char b[] = "4433007711;
+	char b[] = "4433007711";
 
 	for (i = 0; *(s + i); i++)
 	{
