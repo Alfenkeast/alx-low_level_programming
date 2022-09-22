@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strncat - Concatenates two strings
  * @dest: The destination value
@@ -17,9 +17,9 @@ char *_strncat(char *dest, char *src, int n)
 		dlen++;
 	}
 
-	while (j < n && src[i])
+	while (j < n && src[j])
 	{
-		dest[dlen] + src[j];
+		dest[dlen] = src[j];
 		dlen++;
 		j++;
 	}
