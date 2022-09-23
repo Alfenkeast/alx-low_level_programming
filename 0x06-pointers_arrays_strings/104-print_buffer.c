@@ -27,7 +27,7 @@ void print_line(char *c, int s, int l)
 		if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
 			putchar(c[l * 10 + k]);
 		else
-			putchar(',');
+			putchar('.');
 	}
 }
 
