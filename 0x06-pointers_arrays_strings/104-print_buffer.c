@@ -4,8 +4,9 @@
 /**
  * print_line - print a s bytes of a buffer
  * @c: buffer to print
- * @s: bytes of buffer tp print
+ * @s: bytes of buffer to print
  * @l: line of buffer to print
+ *
  * Return: void
  */
 
@@ -20,7 +21,7 @@ void print_line(char *c, int s, int l)
 		else
 			printf(" ");
 		if (j % 2)
-			putchar (' ');
+			putchar(' ');
 	}
 	for (k = 0; k <= s; k++)
 	{
@@ -35,6 +36,7 @@ void print_line(char *c, int s, int l)
  * print_buffer - prints a buffer
  * @b: buffer tp print
  * @size: size of buffer
+ *
  * Return: void
  */
 void print_buffer(char *b, int size)
