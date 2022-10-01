@@ -6,6 +6,6 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-int putchar(char c);
+int _putchar(char c);
 
 #endif
