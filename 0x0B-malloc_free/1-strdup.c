@@ -1,5 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <errno.h>
 
 /**
  * *_strdup - returns a pointer to a newly allocated space with copy of arg
