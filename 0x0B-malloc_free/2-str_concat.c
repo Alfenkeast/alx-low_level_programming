@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _str_concat - concatenates two strings
+ * str_concat - concatenates two strings
  * @s1: first string
  * @s2: second string
  * Return: pointer to new space in memory or null
  */
-char _str_concat(char *s1, char *s2)
+char str_concat(char *s1, char *s2)
 {
 	int i, j, k, e, coun;
 	int coun1 = 0;
