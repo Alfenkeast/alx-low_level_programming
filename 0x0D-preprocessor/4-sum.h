@@ -1,4 +1,4 @@
 #ifndef MACRO_SUM
 #define MACRO_SUM
-#define SUM(x, y) ((x) + (y))
+#define UM(x, y) ((x) + (y))
 #endif
