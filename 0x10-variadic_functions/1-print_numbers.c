@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - check the code for Holberton School students.
+ * print_numbers - check the code for ALX School students.
  * @n: number of arguments
  * @separator: character separator of numbers
  * Return: Always 0.
