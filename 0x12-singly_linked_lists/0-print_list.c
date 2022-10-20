@@ -1,6 +1,6 @@
 /*
  * File: 0-print_list.c
- * Auth: Brennan D Baraban
+ * Auth: Eke Patience
  */
 
 #include "lists.h"
