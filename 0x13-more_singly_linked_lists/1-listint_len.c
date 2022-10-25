@@ -7,11 +7,11 @@
 #include <stdio.h>
 
 /**
- * listint_len - print a functio that return the number of element
- * in a listint_t
+ * listint_len - Returns the number of elements
+ * 	in a linked listint_t list
  * @h: A pointer to the head of the listint_t list
  *
- * Return: The number of the element
+ * Return: The number of the elements in the listint_t list
  */
 
 size_t listint_len(const listint_t *h)
@@ -21,7 +21,6 @@ size_t listint_len(const listint_t *h)
 	while (h)
 	{
 		nodes++;
-		printf("%d\n", h->n);
 		h = h->next;
 	}
 
